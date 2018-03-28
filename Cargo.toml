@@ -1,0 +1,15 @@
+[package]
+name = "race"
+version = "0.1.0"
+authors = ["Roland Baumann <r.dddib.b@gmail.com>"]
+
+[dependencies]
+rand = "*"
+
+[lib]
+name = "mechanics"
+path = "src/lib.rs"
+
+[[bin]]
+name = "gm"
+path = "src/main.rs"
